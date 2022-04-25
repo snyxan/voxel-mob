@@ -1,0 +1,31 @@
+{
+    "name": "voxel-mob",
+    "version": "0.1.0",
+    "description": "create a skinnable mob with physics enabled",
+    "main": "index.js",
+    "dependencies": {
+        "voxel-physical": "0.0.10"
+    },
+    "devDependencies": {
+        "voxel-physical": "0.0.10"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/snyxan/voxel-mob.git"
+    },
+    "homepage": "https://github.com/snyxan/voxel-mob",
+    "keywords": [
+        "voxel",
+        "mob",
+        "physics",
+        "engine",
+        "skin",
+        "browser"
+    ],
+    "author": {
+        "name": "Yuxuan Sun",
+        "email": "yuxuans@fb.com",
+        "url": "http://github.com/snyxan"
+    },
+    "license": "MIT"
+}
