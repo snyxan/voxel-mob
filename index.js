@@ -14,7 +14,7 @@ module.exports = function (game) {
         game.scene.add(mob);
         game.addItem(physics);
         
-        
+        physics.yaw = mob;
         physics.move = function (x, y, z) {
             var xyz = parseXYZ(x, y, z);
             physics.position.x += xyz.x;
