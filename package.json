@@ -5,7 +5,7 @@
     "main": "index.js",
     "dependencies": {
         "voxel-physical": "0.0.10",
-        "three": "0.56.0"
+        "three": "0.139.2"
     },
     "devDependencies": {
         "voxel-physical": "0.0.10"
