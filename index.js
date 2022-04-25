@@ -2,13 +2,13 @@ var physical = require('voxel-physical')
 var THREE = require('three')
 module.exports = function (game) {
     return function () {
-        var geometry = new THREE.BoxGeometry( 1, 1, 1 );
+        var geometry = new THREE.BoxGeometry( 2, 2, 2 );
         var material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );
         var mob = new THREE.Mesh(geometry, material)
         var physics = physical(
             mob
           , game.potentialCollisionSet()
-          , new THREE.Vector3(10, 10, 10)
+          , new THREE.Vector3(2, 2, 2)
           , new THREE.Vector3(30, 5.6, 30)  // what's my terminal velocity?
         ) 
         game.scene.add(mob);
