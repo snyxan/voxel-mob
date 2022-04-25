@@ -1,4 +1,5 @@
 var physical = require('voxel-physical')
+var THREE = require('three')
 module.exports = function (game) {
     return function () {
         var geometry = new THREE.BoxGeometry( 1, 1, 1 );
