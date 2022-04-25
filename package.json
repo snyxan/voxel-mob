@@ -1,6 +1,6 @@
 {
     "name": "voxel-mob",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "create a skinnable mob with physics enabled",
     "main": "index.js",
     "dependencies": {
