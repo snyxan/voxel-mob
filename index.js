@@ -6,7 +6,7 @@ module.exports = function (game) {
         var material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );
         var mob = new THREE.Mesh(geometry, material)
         var physics = physical(
-            object
+            mob
           , game.potentialCollisionSet()
           , new THREE.Vector3(10, 10, 10)
           , new THREE.Vector3(30, 5.6, 30)  // what's my terminal velocity?
