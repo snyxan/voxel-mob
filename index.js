@@ -17,16 +17,16 @@ module.exports = function (game) {
         physics.yaw = mob;
         physics.move = function (x, y, z) {
             var xyz = parseXYZ(x, y, z);
-            physics.position.x += xyz.x;
-            physics.position.y += xyz.y;
-            physics.position.z += xyz.z;
+            physics.yaw.position.x += xyz.x;
+            physics.yaw.position.y += xyz.y;
+            physics.yaw.position.z += xyz.z;
         };
         
         physics.moveTo = function (x, y, z) {
             var xyz = parseXYZ(x, y, z);
-            physics.position.x = xyz.x;
-            physics.position.y = xyz.y;
-            physics.position.z = xyz.z;
+            physics.yaw.position.x = xyz.x;
+            physics.yaw.position.y = xyz.y;
+            physics.yaw.position.z = xyz.z;
         };
         
         return physics;
